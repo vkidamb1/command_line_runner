@@ -3,9 +3,9 @@ require_relative 'models/utility'
 require_relative 'models/ticket'
 require_relative 'models/organization'
 require_relative 'models/user'
-#This class prompts the user to enter the search criteria and
-#calls the respective classes depending the options selected 
-#by the user 
+# This class prompts the user to enter the search criteria and
+# calls the respective classes depending the options selected
+# by the user
 class UserSelection
   def search_values
     puts ApplicationConstants::DISPLAY_SEARCH_OPTIONS_MESSAGE

@@ -1,4 +1,4 @@
-#This class is going to have all the methods that require custom decoration 
+# This class is going to have all the methods that require custom decoration
 class OutputDecorator
   def self.print_output(output)
     output.each do |ele|

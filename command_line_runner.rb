@@ -1,9 +1,9 @@
 require_relative 'lib/constants/application_constants'
 require_relative 'lib/exceptions/input_not_valid_exception_error'
 require_relative 'lib/user_selection'
-#This is the main calls that is supposed to be called to get the application started.
-#This class would display the initial prompt options to the users and navigate over to
-#User Selection class if the input entered by the user on console are valid
+# This is the main calls that is supposed to be called to get the application started.
+# This class would display the initial prompt options to the users and navigate over to
+# User Selection class if the input entered by the user on console are valid
 class CommandLineRunner
   def run
     puts ApplicationConstants::WELCOME_MESSAGE

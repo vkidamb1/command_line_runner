@@ -1,4 +1,4 @@
-#All the constants and print statements are stored in this file
+# All the constants and print statements are stored in this file
 class ApplicationConstants
   ERROR_MESSAGE_FOR_SELECTION = 'Please enter valid selection'.freeze
   WELCOME_MESSAGE = "Welcome to ZenDesk Search\n" \

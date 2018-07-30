@@ -1,4 +1,4 @@
-#This class holds the validation specific methods in the application
+# This class holds the validation specific methods in the application
 require_relative '../exceptions/element_is_nil_exception_error'
 require_relative '../exceptions/element_is_not_included_exception_error'
 class ApplicationValidator

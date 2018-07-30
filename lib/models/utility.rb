@@ -1,10 +1,10 @@
 require 'json'
 require_relative '../decorators/output_decorator'
 require_relative '../validators/application_validator'
-#This class acts as Parent Class for User, Ticket and Organization classes.
-#As all the three child classes functionality are same as of now 
-#we have created generic methods in this classthat are applicable
-#to instances of individual class
+# This class acts as Parent Class for User, Ticket and Organization classes.
+# As all the three child classes functionality are same as of now
+# we have created generic methods in this classthat are applicable
+# to instances of individual class
 class Utility
   def searchable_fields
     puts "-----------------------\nSearch #{self.class.name} with"
